@@ -1,0 +1,39 @@
+{
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "checkout": {
+    "firstName": "Emmanuel",
+    "lastName": "Arhu",
+    "postalCode": "Kumasi"
+  },
+  "pricing": {
+    "subtotal": "39.98",
+    "tax": "3.20",
+    "total": "43.18"
+  },
+  "products": {
+    "backpack": {
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    "bikeLight": {
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    }
+  },
+  "payment": {
+    "method": "SauceCard",
+    "cardNumber": "31337"
+  },
+  "shipping": {
+    "method": "Free Pony Express Delivery!"
+  },
+  "messages": {
+    "orderComplete": {
+      "header": "Thank you for your order!",
+      "text": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+    }
+  }
+}
