@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test Suite - IntelliJ" verbose="1">
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <listener class-name="com.saucedemo.listeners.TestListener"/>
+    </listeners>
+
+    <test name="SauceDemo E2E Tests" preserve-order="true">
+        <classes>
+            <class name="com.saucedemo.tests.SauceDemoTest">
+                <methods>
+                    <include name="testLoginPageElements"/>
+                    <include name="testInventoryPageAfterLogin"/>
+                    <include name="testCompleteShoppingFlow"/>
+                    <include name="testCompleteShoppingFlowWithNumericPostalCode"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
