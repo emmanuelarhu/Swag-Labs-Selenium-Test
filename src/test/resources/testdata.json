@@ -6,7 +6,8 @@
   "checkout": {
     "firstName": "Emmanuel",
     "lastName": "Arhu",
-    "postalCode": "Kumasi"
+    "postalCode": "Kumasi",
+    "postalCodeNumeric": "0248071613"
   },
   "pricing": {
     "subtotal": "39.98",
