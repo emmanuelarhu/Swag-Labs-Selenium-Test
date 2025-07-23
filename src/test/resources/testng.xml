@@ -14,6 +14,7 @@
                     <include name="testLoginPageElements"/>
                     <include name="testInventoryPageAfterLogin"/>
                     <include name="testCompleteShoppingFlow"/>
+                    <include name="testCompleteShoppingFlowWithNumericPostalCode"/>
                 </methods>
             </class>
         </classes>
