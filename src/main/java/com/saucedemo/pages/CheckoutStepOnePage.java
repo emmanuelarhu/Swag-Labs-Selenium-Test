@@ -1,6 +1,7 @@
 package com.saucedemo.pages;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,6 +33,12 @@ public class CheckoutStepOnePage extends BasePage {
 
     @FindBy(css = "[data-test='error']")
     private WebElement errorMessage;
+
+    @FindBy(css = ".error-message-container")
+    private WebElement errorMessageContainer;
+
+    @FindBy(css = ".error-message-container .error")
+    private WebElement errorBanner;
 
     public CheckoutStepOnePage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
@@ -83,6 +90,14 @@ public class CheckoutStepOnePage extends BasePage {
     public CheckoutStepTwoPage clickContinueButton() {
         logger.info("Clicking continue button");
         clickElement(continueButton);
+
+        // Wait a moment for potential error messages or navigation
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
         return new CheckoutStepTwoPage(driver, wait);
     }
 
@@ -104,15 +119,163 @@ public class CheckoutStepOnePage extends BasePage {
 
     @Step("Verify error message is displayed")
     public boolean isErrorMessageDisplayed() {
-        boolean isDisplayed = isElementDisplayed(errorMessage);
-        logger.info("Error message displayed: {}", isDisplayed);
+        // Check multiple possible error message locations
+        boolean standardErrorDisplayed = isElementDisplayed(errorMessage);
+        boolean containerErrorDisplayed = false;
+        boolean bannerErrorDisplayed = false;
+
+        try {
+            containerErrorDisplayed = isElementDisplayed(errorMessageContainer);
+        } catch (Exception e) {
+            logger.debug("Error message container not found: {}", e.getMessage());
+        }
+
+        try {
+            bannerErrorDisplayed = isElementDisplayed(errorBanner);
+        } catch (Exception e) {
+            logger.debug("Error banner not found: {}", e.getMessage());
+        }
+
+        // Also check for any element with error-related classes
+        boolean anyErrorDisplayed = false;
+        try {
+            WebElement anyErrorElement = driver.findElement(By.cssSelector(
+                    ".error-message-container, [data-test='error'], .error, .error-banner, .field-error"));
+            anyErrorDisplayed = anyErrorElement.isDisplayed();
+        } catch (Exception e) {
+            logger.debug("No error elements found with common selectors");
+        }
+
+        boolean isDisplayed = standardErrorDisplayed || containerErrorDisplayed ||
+                bannerErrorDisplayed || anyErrorDisplayed;
+        logger.info("Error message displayed: {} (standard: {}, container: {}, banner: {}, any: {})",
+                isDisplayed, standardErrorDisplayed, containerErrorDisplayed,
+                bannerErrorDisplayed, anyErrorDisplayed);
         return isDisplayed;
     }
 
     @Step("Get error message text")
     public String getErrorMessageText() {
-        String errorText = getElementText(errorMessage);
-        logger.info("Error message: {}", errorText);
+        String errorText = "";
+
+        // Try different error message locations
+        try {
+            if (isElementDisplayed(errorMessage)) {
+                errorText = getElementText(errorMessage);
+                logger.info("Standard error message: {}", errorText);
+                return errorText;
+            }
+        } catch (Exception e) {
+            logger.debug("Standard error message not available: {}", e.getMessage());
+        }
+
+        try {
+            if (isElementDisplayed(errorMessageContainer)) {
+                errorText = getElementText(errorMessageContainer);
+                logger.info("Container error message: {}", errorText);
+                return errorText;
+            }
+        } catch (Exception e) {
+            logger.debug("Container error message not available: {}", e.getMessage());
+        }
+
+        try {
+            if (isElementDisplayed(errorBanner)) {
+                errorText = getElementText(errorBanner);
+                logger.info("Banner error message: {}", errorText);
+                return errorText;
+            }
+        } catch (Exception e) {
+            logger.debug("Banner error message not available: {}", e.getMessage());
+        }
+
+        // Try to find any error element with common selectors
+        try {
+            WebElement anyErrorElement = driver.findElement(By.cssSelector(
+                    ".error-message-container, [data-test='error'], .error, .error-banner, .field-error"));
+            if (anyErrorElement.isDisplayed()) {
+                errorText = anyErrorElement.getText();
+                logger.info("Generic error message found: {}", errorText);
+                return errorText;
+            }
+        } catch (Exception e) {
+            logger.debug("No error message found with any selector: {}", e.getMessage());
+        }
+
+        logger.warn("No error message text found");
         return errorText;
+    }
+
+    @Step("Check if error message contains specific text: {expectedText}")
+    public boolean errorMessageContains(String expectedText) {
+        try {
+            String errorText = getErrorMessageText();
+            boolean contains = errorText.toLowerCase().contains(expectedText.toLowerCase());
+            logger.info("Error message contains '{}': {} (actual message: '{}')",
+                    expectedText, contains, errorText);
+            return contains;
+        } catch (Exception e) {
+            logger.error("Error checking error message content: {}", e.getMessage());
+            return false;
+        }
+    }
+
+    @Step("Verify field validation errors are displayed")
+    public boolean areFieldValidationErrorsDisplayed() {
+        // Check if any input fields have error styling
+        try {
+            // Look for error styling on input fields
+            WebElement firstNameWithError = driver.findElement(By.cssSelector(
+                    "[data-test='firstName'].error, [data-test='firstName']:invalid, " +
+                            "[data-test='firstName'][aria-invalid='true']"));
+
+            WebElement lastNameWithError = driver.findElement(By.cssSelector(
+                    "[data-test='lastName'].error, [data-test='lastName']:invalid, " +
+                            "[data-test='lastName'][aria-invalid='true']"));
+
+            boolean hasFieldErrors = firstNameWithError.isDisplayed() || lastNameWithError.isDisplayed();
+            logger.info("Field validation errors displayed: {}", hasFieldErrors);
+            return hasFieldErrors;
+
+        } catch (Exception e) {
+            logger.debug("No field validation errors found: {}", e.getMessage());
+            return false;
+        }
+    }
+
+    @Step("Get first name field value")
+    public String getFirstNameValue() {
+        try {
+            String value = firstNameField.getAttribute("value");
+            logger.info("First name field value: {}", value);
+            return value;
+        } catch (Exception e) {
+            logger.error("Error getting first name value: {}", e.getMessage());
+            return "";
+        }
+    }
+
+    @Step("Get last name field value")
+    public String getLastNameValue() {
+        try {
+            String value = lastNameField.getAttribute("value");
+            logger.info("Last name field value: {}", value);
+            return value;
+        } catch (Exception e) {
+            logger.error("Error getting last name value: {}", e.getMessage());
+            return "";
+        }
+    }
+
+    @Step("Get postal code field value")
+    public String getPostalCodeValue() {
+        try {
+            String value = postalCodeField.getAttribute("value");
+            logger.info("Postal code field value: {}", value);
+            return value;
+        } catch (Exception e) {
+            logger.error("Error getting postal code value: {}", e.getMessage());
+            return "";
+        }
     }
 }
