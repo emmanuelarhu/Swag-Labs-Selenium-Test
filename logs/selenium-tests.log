@@ -711,3 +711,382 @@
 2025-07-24 09:27:42.397 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
 2025-07-24 09:27:42.606 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
 2025-07-24 09:27:42.608 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:06:27.635 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:06:27.763 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:06:41.621 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:06:41.797 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:06:52.469 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:06:52.591 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:06:59.969 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:07:00.079 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:07:00.082 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:07:01.859 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:07:01.973 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:07:02.265 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:07:02.276 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:07:02.791 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:07:02.794 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:07:02.795 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:07:03.036 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:07:03.188 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:07:03.440 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:07:04.251 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:07:04.731 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:07:05.083 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:07:05.084 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:07:31.357 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-07-24 10:07:31.386 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:07:38.817 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:07:38.933 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:07:42.078 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:07:42.161 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:07:42.161 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:07:43.738 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-07-24 10:07:43.825 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:07:44.507 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:07:44.534 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:07:44.535 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:07:44.794 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:07:44.958 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:07:45.184 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:07:45.267 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:07:45.559 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:07:45.918 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-07-24 10:07:45.948 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:08:03.774 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:08:03.901 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:08:07.318 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:08:07.463 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:08:07.463 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:08:08.151 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-07-24 10:08:08.229 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:08:09.208 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:08:09.220 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:08:09.361 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-07-24 10:08:09.386 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:08:19.083 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:08:19.206 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:08:21.881 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:08:21.968 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:08:21.969 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:08:23.642 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:08:23.719 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:08:24.112 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:08:24.126 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:08:24.687 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:08:24.691 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:08:24.692 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:08:24.894 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:08:25.046 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:08:25.299 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:08:25.854 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:08:25.978 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:08:26.368 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:08:26.368 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:08:46.729 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-07-24 10:08:46.779 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:09:05.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:09:05.480 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:09:09.189 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:09:09.298 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:09:09.299 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:09:11.014 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:09:11.126 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:09:11.503 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:09:11.518 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:09:12.088 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:09:12.093 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:09:12.093 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:09:12.296 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:09:12.464 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:09:12.673 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:09:13.293 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:09:13.387 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:09:13.648 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:09:13.648 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:09:33.831 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-07-24 10:09:33.866 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:10:43.204 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:10:43.345 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:10:47.159 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:10:47.286 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:10:47.287 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:10:49.531 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:10:49.614 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:10:49.900 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:10:49.913 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:10:50.648 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:10:50.652 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:10:50.653 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:10:50.842 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:10:51.018 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:10:51.290 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:10:51.805 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:10:51.904 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:10:52.112 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:10:52.113 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:10:52.281 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: true
+2025-07-24 10:10:52.282 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Bike Light to cart
+2025-07-24 10:10:52.473 [main] INFO  com.saucedemo.pages.InventoryPage - Bike light added to cart: true
+2025-07-24 10:10:52.587 [main] INFO  com.saucedemo.pages.InventoryPage - Cart badge count: 2
+2025-07-24 10:10:52.804 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-07-24 10:10:53.031 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-07-24 10:10:53.278 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: true
+2025-07-24 10:10:53.476 [main] INFO  com.saucedemo.pages.CartPage - Cart headers displayed - QTY: true, Description: true
+2025-07-24 10:10:53.510 [main] INFO  com.saucedemo.pages.CartPage - Cart item count: 2
+2025-07-24 10:10:53.591 [main] INFO  com.saucedemo.pages.CartPage - All expected items found in cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2025-07-24 10:10:53.743 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-07-24 10:10:53.907 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-07-24 10:10:54.003 [main] INFO  c.s.pages.CheckoutStepOnePage - Checkout step one page loaded: true
+2025-07-24 10:10:54.147 [main] INFO  c.s.pages.CheckoutStepOnePage - Form fields displayed: true
+2025-07-24 10:10:54.148 [main] INFO  c.s.pages.CheckoutStepOnePage - Filling checkout information - First: Emmanuel, Last: Arhu, Postal: Kumasi
+2025-07-24 10:10:54.148 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-07-24 10:10:54.295 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering last name: Arhu
+2025-07-24 10:10:54.430 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering postal code: Kumasi
+2025-07-24 10:10:54.703 [main] INFO  c.s.pages.CheckoutStepOnePage - Clicking continue button
+2025-07-24 10:10:54.892 [main] INFO  c.s.pages.CheckoutStepTwoPage - CheckoutStepTwoPage initialized
+2025-07-24 10:10:55.009 [main] INFO  c.s.pages.CheckoutStepTwoPage - Checkout step two page loaded: true
+2025-07-24 10:10:55.096 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info displayed: true
+2025-07-24 10:10:55.201 [main] INFO  c.s.pages.CheckoutStepTwoPage - Shipping info displayed: true
+2025-07-24 10:10:55.398 [main] INFO  c.s.pages.CheckoutStepTwoPage - Price total info displayed: true
+2025-07-24 10:10:55.443 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info: SauceCard #31337
+2025-07-24 10:10:55.443 [main] INFO  c.s.pages.CheckoutStepTwoPage - SauceCard payment method verified with card number: 31337
+2025-07-24 10:10:55.482 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal: Item total: $39.98
+2025-07-24 10:10:55.482 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal verification - Expected: $39.98, Actual: $39.98, Matches: true
+2025-07-24 10:10:55.518 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax: Tax: $3.20
+2025-07-24 10:10:55.518 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax verification - Expected: $3.20, Actual: $3.20, Matches: true
+2025-07-24 10:10:55.555 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total: Total: $43.18
+2025-07-24 10:10:55.556 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total verification - Expected: $43.18, Actual: $43.18, Matches: true
+2025-07-24 10:10:55.734 [main] INFO  c.s.pages.CheckoutStepTwoPage - Clicking finish button
+2025-07-24 10:10:55.873 [main] INFO  c.s.pages.CheckoutCompletePage - CheckoutCompletePage initialized
+2025-07-24 10:10:55.990 [main] INFO  c.s.pages.CheckoutCompletePage - Checkout complete page loaded: true
+2025-07-24 10:10:56.152 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion elements displayed: true
+2025-07-24 10:10:56.194 [main] INFO  c.s.pages.CheckoutCompletePage - Completion header text: Thank you for your order!
+2025-07-24 10:10:56.234 [main] INFO  c.s.pages.CheckoutCompletePage - Completion message text: Your order has been dispatched, and will arrive just as fast as the pony can get there!
+2025-07-24 10:10:56.235 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion message verification - Header: true, Message: true
+2025-07-24 10:10:56.270 [main] INFO  c.s.pages.CheckoutCompletePage - Pony express image displayed: true
+2025-07-24 10:10:56.428 [main] INFO  c.s.pages.CheckoutCompletePage - Clicking back to products button
+2025-07-24 10:10:56.562 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:10:56.616 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:10:56.713 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:10:56.953 [main] INFO  com.saucedemo.tests.SauceDemoTest - Complete shopping flow test completed successfully
+2025-07-24 10:10:56.994 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:10:57.746 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:10:58.865 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:10:58.927 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:11:00.930 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-07-24 10:11:00.932 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:11:01.170 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:11:01.176 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:11:01.342 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-07-24 10:11:01.345 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:11:01.506 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:11:02.747 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:11:02.809 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:11:04.138 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-07-24 10:11:04.142 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:11:04.143 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:11:04.143 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:11:04.355 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:11:04.559 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:11:04.844 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:11:05.033 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:11:05.397 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:11:05.641 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-07-24 10:11:05.644 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:11:16.873 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:11:17.121 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:11:20.642 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:11:20.753 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:11:20.753 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:11:22.265 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:11:22.358 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:11:22.721 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:11:22.733 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:11:23.337 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:11:23.342 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:11:23.343 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:11:23.537 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:11:23.687 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:11:23.925 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:11:24.667 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:11:25.149 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:11:25.559 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:11:25.560 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:11:25.807 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: true
+2025-07-24 10:11:25.808 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Bike Light to cart
+2025-07-24 10:11:26.061 [main] INFO  com.saucedemo.pages.InventoryPage - Bike light added to cart: true
+2025-07-24 10:11:26.179 [main] INFO  com.saucedemo.pages.InventoryPage - Cart badge count: 2
+2025-07-24 10:11:26.414 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-07-24 10:11:26.625 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-07-24 10:11:26.724 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: true
+2025-07-24 10:11:26.949 [main] INFO  com.saucedemo.pages.CartPage - Cart headers displayed - QTY: true, Description: true
+2025-07-24 10:11:26.976 [main] INFO  com.saucedemo.pages.CartPage - Cart item count: 2
+2025-07-24 10:11:27.070 [main] INFO  com.saucedemo.pages.CartPage - All expected items found in cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2025-07-24 10:11:27.212 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-07-24 10:11:27.368 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-07-24 10:11:27.496 [main] INFO  c.s.pages.CheckoutStepOnePage - Checkout step one page loaded: true
+2025-07-24 10:11:27.650 [main] INFO  c.s.pages.CheckoutStepOnePage - Form fields displayed: true
+2025-07-24 10:11:27.652 [main] INFO  c.s.pages.CheckoutStepOnePage - Filling checkout information - First: Emmanuel, Last: Arhu, Postal: Kumasi
+2025-07-24 10:11:27.653 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-07-24 10:11:27.819 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering last name: Arhu
+2025-07-24 10:11:27.967 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering postal code: Kumasi
+2025-07-24 10:11:28.272 [main] INFO  c.s.pages.CheckoutStepOnePage - Clicking continue button
+2025-07-24 10:11:28.429 [main] INFO  c.s.pages.CheckoutStepTwoPage - CheckoutStepTwoPage initialized
+2025-07-24 10:11:28.529 [main] INFO  c.s.pages.CheckoutStepTwoPage - Checkout step two page loaded: true
+2025-07-24 10:11:28.624 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info displayed: true
+2025-07-24 10:11:28.730 [main] INFO  c.s.pages.CheckoutStepTwoPage - Shipping info displayed: true
+2025-07-24 10:11:28.939 [main] INFO  c.s.pages.CheckoutStepTwoPage - Price total info displayed: true
+2025-07-24 10:11:28.979 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info: SauceCard #31337
+2025-07-24 10:11:28.980 [main] INFO  c.s.pages.CheckoutStepTwoPage - SauceCard payment method verified with card number: 31337
+2025-07-24 10:11:29.027 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal: Item total: $39.98
+2025-07-24 10:11:29.027 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal verification - Expected: $39.98, Actual: $39.98, Matches: true
+2025-07-24 10:11:29.070 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax: Tax: $3.20
+2025-07-24 10:11:29.070 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax verification - Expected: $3.20, Actual: $3.20, Matches: true
+2025-07-24 10:11:29.126 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total: Total: $43.18
+2025-07-24 10:11:29.126 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total verification - Expected: $43.18, Actual: $43.18, Matches: true
+2025-07-24 10:11:29.300 [main] INFO  c.s.pages.CheckoutStepTwoPage - Clicking finish button
+2025-07-24 10:11:29.447 [main] INFO  c.s.pages.CheckoutCompletePage - CheckoutCompletePage initialized
+2025-07-24 10:11:29.557 [main] INFO  c.s.pages.CheckoutCompletePage - Checkout complete page loaded: true
+2025-07-24 10:11:29.918 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion elements displayed: true
+2025-07-24 10:11:29.964 [main] INFO  c.s.pages.CheckoutCompletePage - Completion header text: Thank you for your order!
+2025-07-24 10:11:30.008 [main] INFO  c.s.pages.CheckoutCompletePage - Completion message text: Your order has been dispatched, and will arrive just as fast as the pony can get there!
+2025-07-24 10:11:30.008 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion message verification - Header: true, Message: true
+2025-07-24 10:11:30.058 [main] INFO  c.s.pages.CheckoutCompletePage - Pony express image displayed: true
+2025-07-24 10:11:30.209 [main] INFO  c.s.pages.CheckoutCompletePage - Clicking back to products button
+2025-07-24 10:11:30.330 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:11:30.380 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:11:30.464 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:11:30.718 [main] INFO  com.saucedemo.tests.SauceDemoTest - Complete shopping flow test completed successfully
+2025-07-24 10:11:30.744 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:11:31.001 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:11:32.289 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:11:32.359 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:11:34.674 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-07-24 10:11:34.674 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:11:34.887 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:11:34.894 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:11:35.032 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-07-24 10:11:35.036 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:11:35.257 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:11:36.371 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:11:36.424 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:11:36.908 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-07-24 10:11:36.909 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:11:36.909 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:11:36.910 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:11:38.149 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:11:38.312 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:11:38.475 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:11:38.527 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:11:38.782 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:11:38.986 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-07-24 10:11:38.989 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:12:37.021 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-07-24 10:12:37.152 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:12:40.160 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:12:40.288 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-07-24 10:12:40.288 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:12:41.748 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-07-24 10:12:41.887 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:12:42.250 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:12:42.263 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:12:42.842 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-07-24 10:12:42.849 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:12:42.851 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:12:43.089 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:12:43.272 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:12:43.496 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:12:44.091 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:12:44.221 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:12:44.832 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:12:44.834 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-07-24 10:12:45.014 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: true
+2025-07-24 10:12:45.017 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Bike Light to cart
+2025-07-24 10:12:45.214 [main] INFO  com.saucedemo.pages.InventoryPage - Bike light added to cart: true
+2025-07-24 10:12:45.352 [main] INFO  com.saucedemo.pages.InventoryPage - Cart badge count: 2
+2025-07-24 10:12:45.556 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-07-24 10:12:45.703 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-07-24 10:12:45.807 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: true
+2025-07-24 10:12:45.980 [main] INFO  com.saucedemo.pages.CartPage - Cart headers displayed - QTY: true, Description: true
+2025-07-24 10:12:45.999 [main] INFO  com.saucedemo.pages.CartPage - Cart item count: 2
+2025-07-24 10:12:46.096 [main] INFO  com.saucedemo.pages.CartPage - All expected items found in cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2025-07-24 10:12:46.292 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-07-24 10:12:46.448 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-07-24 10:12:46.538 [main] INFO  c.s.pages.CheckoutStepOnePage - Checkout step one page loaded: true
+2025-07-24 10:12:46.699 [main] INFO  c.s.pages.CheckoutStepOnePage - Form fields displayed: true
+2025-07-24 10:12:46.699 [main] INFO  c.s.pages.CheckoutStepOnePage - Filling checkout information - First: Emmanuel, Last: Arhu, Postal: Kumasi
+2025-07-24 10:12:46.700 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-07-24 10:12:46.858 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering last name: Arhu
+2025-07-24 10:12:46.996 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering postal code: Kumasi
+2025-07-24 10:12:47.324 [main] INFO  c.s.pages.CheckoutStepOnePage - Clicking continue button
+2025-07-24 10:12:47.502 [main] INFO  c.s.pages.CheckoutStepTwoPage - CheckoutStepTwoPage initialized
+2025-07-24 10:12:47.587 [main] INFO  c.s.pages.CheckoutStepTwoPage - Checkout step two page loaded: true
+2025-07-24 10:12:47.704 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info displayed: true
+2025-07-24 10:12:47.799 [main] INFO  c.s.pages.CheckoutStepTwoPage - Shipping info displayed: true
+2025-07-24 10:12:48.041 [main] INFO  c.s.pages.CheckoutStepTwoPage - Price total info displayed: true
+2025-07-24 10:12:48.074 [main] INFO  c.s.pages.CheckoutStepTwoPage - Payment info: SauceCard #31337
+2025-07-24 10:12:48.074 [main] INFO  c.s.pages.CheckoutStepTwoPage - SauceCard payment method verified with card number: 31337
+2025-07-24 10:12:48.109 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal: Item total: $39.98
+2025-07-24 10:12:48.109 [main] INFO  c.s.pages.CheckoutStepTwoPage - Subtotal verification - Expected: $39.98, Actual: $39.98, Matches: true
+2025-07-24 10:12:48.149 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax: Tax: $3.20
+2025-07-24 10:12:48.149 [main] INFO  c.s.pages.CheckoutStepTwoPage - Tax verification - Expected: $3.20, Actual: $3.20, Matches: true
+2025-07-24 10:12:48.206 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total: Total: $43.18
+2025-07-24 10:12:48.206 [main] INFO  c.s.pages.CheckoutStepTwoPage - Total verification - Expected: $43.18, Actual: $43.18, Matches: true
+2025-07-24 10:12:48.369 [main] INFO  c.s.pages.CheckoutStepTwoPage - Clicking finish button
+2025-07-24 10:12:48.512 [main] INFO  c.s.pages.CheckoutCompletePage - CheckoutCompletePage initialized
+2025-07-24 10:12:48.602 [main] INFO  c.s.pages.CheckoutCompletePage - Checkout complete page loaded: true
+2025-07-24 10:12:48.894 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion elements displayed: true
+2025-07-24 10:12:48.955 [main] INFO  c.s.pages.CheckoutCompletePage - Completion header text: Thank you for your order!
+2025-07-24 10:12:49.005 [main] INFO  c.s.pages.CheckoutCompletePage - Completion message text: Your order has been dispatched, and will arrive just as fast as the pony can get there!
+2025-07-24 10:12:49.006 [main] INFO  c.s.pages.CheckoutCompletePage - Order completion message verification - Header: true, Message: true
+2025-07-24 10:12:49.064 [main] INFO  c.s.pages.CheckoutCompletePage - Pony express image displayed: true
+2025-07-24 10:12:49.228 [main] INFO  c.s.pages.CheckoutCompletePage - Clicking back to products button
+2025-07-24 10:12:49.354 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:12:49.408 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:12:49.495 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-07-24 10:12:49.724 [main] INFO  com.saucedemo.tests.SauceDemoTest - Complete shopping flow test completed successfully
+2025-07-24 10:12:49.748 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:12:50.007 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:12:51.973 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:12:52.074 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:12:53.437 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-07-24 10:12:53.437 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:12:53.681 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-07-24 10:12:53.687 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-07-24 10:12:53.808 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-07-24 10:12:53.811 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-07-24 10:12:54.003 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-07-24 10:12:56.013 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-07-24 10:12:56.138 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-07-24 10:12:57.892 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-07-24 10:12:57.892 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-07-24 10:12:57.893 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-07-24 10:12:57.893 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-07-24 10:12:58.082 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-07-24 10:12:58.255 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-07-24 10:12:58.419 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-07-24 10:12:58.517 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-07-24 10:12:58.778 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-07-24 10:12:59.020 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-07-24 10:12:59.025 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
