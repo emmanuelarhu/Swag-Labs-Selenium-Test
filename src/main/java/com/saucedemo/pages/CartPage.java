@@ -1,6 +1,7 @@
 package com.saucedemo.pages;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -118,5 +119,40 @@ public class CartPage extends BasePage {
                 .toArray(String[]::new);
         logger.info("Item quantities in cart: {}", String.join(", ", quantities));
         return quantities;
+    }
+
+
+    @Step("Check if checkout button is available")
+    public boolean isCheckoutButtonAvailable() {
+        try {
+            boolean isAvailable = isElementDisplayed(checkoutButton) && checkoutButton.isEnabled();
+            logger.info("Checkout button available: {}", isAvailable);
+            return isAvailable;
+        } catch (Exception e) {
+            logger.info("Checkout button not available: {}", e.getMessage());
+            return false;
+        }
+    }
+
+    @Step("Verify cart is empty")
+    public boolean isCartEmpty() {
+        boolean isEmpty = getCartItemCount() == 0;
+        logger.info("Cart is empty: {}", isEmpty);
+        return isEmpty;
+    }
+
+    @Step("Get empty cart message")
+    public String getEmptyCartMessage() {
+        try {
+            // Look for common empty cart message elements
+            WebElement emptyMessage = driver.findElement(By.cssSelector(
+                    ".cart_item_label, .empty-cart, .no-items, .cart-empty-message"));
+            String message = getElementText(emptyMessage);
+            logger.info("Empty cart message: {}", message);
+            return message;
+        } catch (Exception e) {
+            logger.debug("No empty cart message found: {}", e.getMessage());
+            return "";
+        }
     }
 }
